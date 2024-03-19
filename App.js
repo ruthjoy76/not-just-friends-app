@@ -1,61 +1,11 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, View } from 'react-native';
-import FeedPost from './src/components/FeedPost';
-
-const post1 = {
-  id: "p1",
-  createdAt: "19 m",
-  User: {
-    id: "u1",
-    image:
-      "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/zuck.jpeg",
-    name: "Vadim Savin",
-  },
-  description:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
-//   image: "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/1.jpg",
-  numberOfLikes: 11,
-  numberOfShares: 2,
-};
-
-const post2 = {
-  id: "p1",
-  createdAt: "19 m",
-  User: {
-    id: "u1",
-    image:
-      "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/zuck.jpeg",
-    name: "Elon Musk",
-  },
-  description:
-    "Oh! kalma, baby kalma...",
-//   image: "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/1.jpg",
-  numberOfLikes: 11,
-  numberOfShares: 2,
-};
-
-const post3 = {
-  id: "p1",
-  createdAt: "19 m",
-  User: {
-    id: "u1",
-    image:
-      "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/zuck.jpeg",
-    name: "Mama Mo",
-  },
-  description:
-    "Share mo lang.",
-//   image: "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/1.jpg",
-  numberOfLikes: 11,
-  numberOfShares: 2,
-};
+import FeedScreen from './src/screens/FeedScreen';
 
 export default function App() {
   return (
     <View style={styles.container}>
-     <FeedPost post={post1} />
-     <FeedPost post={post2}/>
-     <FeedPost post={post3}/>
+     <FeedScreen />
       <StatusBar style="auto" />
     </View>
   );
@@ -64,7 +14,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#f1f1f1',
     alignItems: 'center',
     justifyContent: 'center',
   },
