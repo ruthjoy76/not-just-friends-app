@@ -1,4 +1,7 @@
+
 Masterclass: Build a SM app in 2 days
+![Mobile](https://github.com/ruthjoy76/not-just-friends-app/assets/126475991/94e06638-7290-461a-9a1e-57ee61f89e68)
+
 ## Day 1: Front end
 
 **with React Native**
