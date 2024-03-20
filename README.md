@@ -14,5 +14,5 @@ In day one, we will focus on building a beautiful user interface using React Nat
 - Props, State and Hooks
 - Working with images
 - Navigation system
-
-  ![431858822_258975747275119_2642209544134698074_n](https://github.com/ruthjoy76/not-just-friends-app/assets/126475991/9d07caba-5a02-467b-bc2f-5972ec6ab2f8)
+- 
+  ![431771262_718065393831669_4021677511176422133_n](https://github.com/ruthjoy76/not-just-friends-app/assets/126475991/623b4a29-c626-4cee-b128-81c7034a5dae)
